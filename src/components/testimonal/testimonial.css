@@ -1,0 +1,75 @@
+.testimonial{
+    display: flex;
+    gap:10rem;
+    padding:0 2rem;
+    background-color: #363d42;
+}
+
+.left-t{
+    margin-top: 90px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position:relative;
+}
+
+.left-t>hr{
+    position:absolute;
+    width:10.5rem;
+    border: 2px solid orange;
+    border-radius: 20%;
+    margin: -10px 0;
+}
+
+.right-t{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.email-container{
+    display: flex;
+    gap:3rem;
+    background-color: grey;
+    padding:1rem 2rem;  
+    border-radius: 20px; 
+}
+
+.email-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:lightgrey;
+    margin-left: 20px;
+}
+
+
+::placeholder{
+    color: lightgrey;
+}
+
+.join_noe{
+background-color: orange;
+border-radius: 10px;
+color: white;
+margin-left:20px;
+}
+
+ @media screen and (max-width:768px) {
+     .testimonial {
+        flex-direction: column;
+        gap:1rem;
+
+     }
+
+     .left-t{
+font-size: x-large;
+flex-direction: column;
+     }
+
+     .right-j{
+        padding:2rem;
+     }
+ }
